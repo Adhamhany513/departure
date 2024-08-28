@@ -1,0 +1,329 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background-image: url(img/travel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header{
+  background: snow;
+  position: fixed;
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li{
+  display: inline-block;
+  padding: 12px;
+}
+ul li a{
+  color: darkcyan;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+ul li a:hover{
+  color: black;
+  font-family: fantasy;
+  transition: 0.5s
+}
+.logo{
+  margin: 10px;
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: monospace;
+  color: darkcyan;
+}
+.login{
+  margin: 10px;
+  width: 135px;
+  padding: 7px;
+  background: green;
+  color: snow;
+  font-size: 20px;
+  border: solid 3px greenyellow;
+  border-radius: 15px 30px;
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow: 0 0 50px 0 greenyellow;
+}
+.login:hover{
+  background: greenyellow;
+  color: black;
+  box-shadow: 0 0 50px 0 green;
+  transition: 0.6s;
+  border: solid 3px black;
+  border-radius: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.contant span{
+  color: snow;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.contant h2{
+  margin: 10px;
+  font-size: 55px;
+  color: snow;
+  font-weight: bolder;
+}
+.contant p{
+  margin: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 750px;
+  color: floralwhite;
+  font-weight: bold;
+} 
+#btn{
+  margin-bottom: 25px;
+  padding: 5px;
+  background: greenyellow;
+  color: black;
+  font-size: 20px;
+  border: solid 3px black;
+  border-radius: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 greenyellow;
+}
+
+#btn:hover{
+  background: green;
+  color: snow;
+  border: solid snow 3px;
+  border-radius: 10px 30px;
+  transition: 0.6s;
+  font-family: sans-serif;
+  box-shadow: 0 0 25px 0 green;
+}
+.travel{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img-travel{
+  margin: 15px;
+  background: floralwhite;
+  border-radius: 20px;
+  border: solid 1.5px black;
+  box-shadow: 0 0 20px 0 black;
+}
+.text-travel{
+  text-align: center;
+}
+#texts{
+  text-align: center;
+}
+.textss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.york{
+  width: 200px;
+}
+.mad{
+  width: 200px;
+}
+.roma{
+  width: 200px;
+}
+.maldif{
+  width: 200px;
+}
+.paris{
+  width: 250px;
+}
+.dubai{
+  width: 200px;
+}
+.egypt{
+  width: 200px;
+}
+.Istanbul{
+  width: 200px;
+}
+.enter{
+  margin: 15px;
+  text-align: center;
+}
+.enters{
+  padding: 5px;
+  background: yellow;
+  color: black;
+  font-size: 20px;
+  border: solid 3px black;
+  border-radius: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 gold;
+}
+.enters:hover{
+  background: yellowgreen;
+  color: snow;
+  border: solid snow 3px;
+  border-radius: 10px 23px;
+  transition: 0.6s;
+  font-family: sans-serif;
+  box-shadow: 0 0 25px 0 yellowgreen;
+}
+h3{
+  padding: 10px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+.for-car{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.travel-cars{
+  margin: 15px;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: initial;
+}
+.car-f{
+  color: darkcyan;
+  font-family: fantasy;
+}
+.travel-carss{
+  margin: 15px;
+  width: 500px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btnf{
+  margin: 20px;
+  padding: 5px;
+  background: greenyellow;
+  color: black;
+  font-size: 20px;
+  border: solid 3px black;
+  border-radius:  15px 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 greenyellow;
+}
+.btnf:hover{
+  background: green;
+  color: snow;
+  border: solid black 3px;
+  border-radius: 10px 30px;
+  transition: 0.6s;
+  font-family: sans-serif;
+  box-shadow: 0 0 25px 0 green;
+}
+.car{
+  margin: 15px;
+  width: 400px;
+  border: solid 3px darkcyan;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 0 darkcyan;
+}
+.reservation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 500px;
+}
+.reserb{
+  margin: 15px;
+  padding: 5px;
+  background: greenyellow;
+  color: black;
+  font-size: 20px;
+  border: solid 1.5px green;
+  border-radius: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 greenyellow;
+}
+.reserb:hover{
+  background: green;
+  color: snow;
+  border: solid black 3px;
+  border-radius: 10px 30px;
+  transition: 0.6s;
+  font-family: sans-serif;
+  box-shadow: 0 0 25px 0 green;
+}
+.reserss{
+  width: 450px;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.inputq{
+  margin: 20px;
+  background: whitesmoke;
+  text-align: center;
+  border-radius: 20px 50px;
+  box-shadow: 0 0 50px 0 black;
+}
+input{
+  outline: none;
+  padding: 4px;
+  margin: 10px;
+  border: solid 3px green;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.sub{
+  width: 150px;
+  padding: 3px;
+  background: black;
+  color: snow;
+  border: solid 3px black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.sub:hover{
+  background: greenyellow;
+  color: black;
+  transition: 0.6s;
+  border: solid 3px greenyellow;
+  font-family: fantasy;
+  font-weight: bold;
+}
+h5{
+  text-align: center;
+  font-size: 30px
+}
